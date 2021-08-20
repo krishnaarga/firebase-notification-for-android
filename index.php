@@ -9,7 +9,7 @@ $data = array(
 );
     
 // Firebase Token
-$api_key = 'AAAAYmYiF3U:APA91bF9r4cRIwRZ8LxcHEuvha5bxiLKN1aXhrSnBveDfbxcSIMaN4gc9btgAag7Lfo-_IP8T7SGqhct8yQr3SuyZpzA5kdVfst3EDEtmw114WAPWJleXOhRV7XQRN2-Ncm1JhJTL5_s';
+$api_key = 'AAAAYmYiF3U:APA91bF9r4cRIwRZ8LxcHEuvha5bxiLKN1aXhrSnBveDfbxcSIMaN4gc9btgAag7Lfo-_IP8T7SGqhct8yQr3SuyZpzA5kdVfst3EDEtmw117XQRN2-Ncm1JhJTL5_s';
 
 $url = 'https://fcm.googleapis.com/fcm/send';
 $fields = json_encode(array('to'=>$to, 'notification'=>$data));
